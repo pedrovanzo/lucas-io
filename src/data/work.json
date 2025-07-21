@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Nurture",
+        "started": "Mar, 2025",
+        "ended": "Current",
+        "detailsUrl": "#123",
+        "heroPreviewUrl": "/assets/thumbs/nurturelogo.jpg"
+    },
+    {
+        "title": "Blue Gravity Studios",
+        "started": "Jun, 2024",
+        "ended": "Mar, 2025",
+        "detailsUrl": "#321",
+        "heroPreviewUrl": "/assets/thumbs/bluegravitylogo.jpg"
+    },
+    {
+        "title": "Inside",
+        "started": "Nov, 2019",
+        "ended": "Jun, 2024",
+        "detailsUrl": "#432",
+        "heroPreviewUrl": "/assets/thumbs/insidelogo.png"
+    }
+]

@@ -1,0 +1,155 @@
+[
+    {
+        "title": "Asteroid Best",
+        "engine": "FLAX Engine",
+        "timestamp": "2025",
+        "heroPreviewUrl": "/assets/thumbs/asteroidBeltfreeRoam.webm",
+        "gameUrl": "https://lucasrios.itch.io/asteroid-belt",
+        "type": [
+            "personal",
+            "other"
+        ]
+    },
+    {
+        "title": "Orbit",
+        "engine": "Unity",
+        "timestamp": "2024",
+        "heroPreviewUrl": "/assets/thumbs/orbitThumb.webm",
+        "gameUrl": "https://lucasrios.itch.io/orbit",
+        "type": [
+            "personal",
+            "unity"
+        ]
+    },
+    {
+        "title": "Dungeon",
+        "engine": "raylib",
+        "timestamp": "2024",
+        "heroPreviewUrl": "/assets/thumbs/dungeon-raylib1.webm",
+        "gameUrl": "https://lucasrios.itch.io/dungeon",
+        "type": [
+            "personal",
+            "other"
+        ]
+    },
+    {
+        "title": "Net Rush",
+        "engine": "Unity",
+        "timestamp": "2024",
+        "heroPreviewUrl": "/assets/thumbs/netRush.webm",
+        "gameUrl": "https://lucasrios.itch.io/net-rush",
+        "type": [
+            "unity"
+        ]
+    },
+    {
+        "title": "Robotim / Teacher's Area",
+        "engine": "Unity",
+        "timestamp": "2021/22/23",
+        "heroPreviewUrl": "/assets/thumbs/robotim.webm",
+        "gameUrl": "https://lucasfaesa.github.io/Robotim",
+        "type": [
+            "unity"
+        ]
+    },
+    {
+        "title": "Third Bridge",
+        "engine": "Unity",
+        "timestamp": "2020",
+        "heroPreviewUrl": "/assets/thumbs/ThirdBridge.webm",
+        "gameUrl": "https://lucasrios.itch.io/third-bridge",
+        "type": [
+            "unity"
+        ]
+    },
+    {
+        "title": "Endless (Music) Racetrack",
+        "engine": "Unity",
+        "timestamp": "2020",
+        "heroPreviewUrl": "/assets/thumbs/endlessRacetrack.webm",
+        "gameUrl": "https://lucasrios.itch.io/endless-music-racetrack",
+        "type": [
+            "unity"
+        ]
+    },
+    {
+        "title": "Remember Us",
+        "engine": "Unity",
+        "timestamp": "2020",
+        "heroPreviewUrl": "/assets/thumbs/RememberUs.webm",
+        "gameUrl": "https://lucasrios.itch.io/remember-us",
+        "type": [
+            "unity"
+        ]
+    },
+    {
+        "title": "Time Lapse",
+        "engine": "Unity",
+        "timestamp": "2020",
+        "heroPreviewUrl": "/assets/thumbs/timelapse.webm",
+        "gameUrl": "https://lucasrios.itch.io/time-lapse",
+        "type": [
+            "unity"
+        ]
+    },
+    {
+        "title": "Cowboys vs Aliens",
+        "engine": "Unity",
+        "timestamp": "2020",
+        "heroPreviewUrl": "/assets/thumbs/cowboysvAliens.webm",
+        "gameUrl": "https://lucasrios.itch.io/cowboys-vs-aliens",
+        "type": [
+            "unity"
+        ]
+    },
+    {
+        "title": "Coin Dash",
+        "engine": "LÖVE 2D Engine",
+        "timestamp": "2024",
+        "heroPreviewUrl": "/assets/thumbs/LuaConDash.webm",
+        "gameUrl": "https://lucasfaesa.github.io/CoinDash-LOVE2D-Web",
+        "type": [
+            "other"
+        ]
+    },
+    {
+        "title": "5[Godot] Micro-Games",
+        "engine": "Godot Engine",
+        "timestamp": "2024",
+        "heroPreviewUrl": "/assets/thumbs/GodotMicroGames.webm",
+        "gameUrl": "https://lucasfaesa.github.io/Godot4BookProjects",
+        "type": [
+            "other"
+        ]
+    },
+    {
+        "title": "Just Nodes",
+        "engine": "Unity",
+        "timestamp": "2024",
+        "heroPreviewUrl": "/assets/thumbs/justnodes.webm",
+        "gameUrl": "https://lucasfaesa.github.io/JustNodes-WebGL",
+        "type": [
+            "technical"
+        ]
+    },
+    {
+        "title": "Blue Gravity Shop",
+        "engine": "Unity",
+        "timestamp": "2024",
+        "heroPreviewUrl": "/assets/thumbs/bluegravityshop.webm",
+        "gameUrl": "https://lucasfaesa.github.io/BlueGravityShop-WEB",
+        "type": [
+            "technical"
+        ]
+    },
+    {
+        "title": "Free Throw",
+        "engine": "Unity",
+        "timestamp": "2019",
+        "heroPreviewUrl": "/assets/thumbs/freeThrow.webm",
+        "gameUrl": "https://lucasrios.itch.io/freethrow",
+        "type": [
+            "technical"
+        ]
+    }
+]
