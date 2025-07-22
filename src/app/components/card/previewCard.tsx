@@ -41,7 +41,7 @@ export default function PreviewCard(props: any) {
                 </p>
                 <div className="flex flex-row gap-2">
                     <a
-                        href="./work.html#nurture"
+                        href={`/games#` + props.title}
                         className="text-sm px-3 py-2 mt-4 border-2 rounded block w-fit"
                     >
                         Details
