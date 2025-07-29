@@ -14,12 +14,12 @@ export default function Work() {
             <h2 className="my-4 w-fit font-serif text-2xl text-white italic">
                 Professional Work:
             </h2>
-            <ul className="grid grid-cols-3 gap-8 justify-between leading-none w-full font-sans">
+            <ul className="grid grid-cols-1 lg:grid-cols-3 gap-8 justify-between leading-none w-full font-sans">
                 {data?.map((item: any, index: any) => {
                     return (
                         <li
                             key={index}
-                            className="mx-auto md:mx-0 w-full max-w-[500px]"
+                            className="mx-auto md:mx-0"
                         >
                             <ContentCard
                                 previewUrl={item.heroPreviewUrl}

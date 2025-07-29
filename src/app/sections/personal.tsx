@@ -13,7 +13,7 @@ export default function Personal() {
             <h2 className="my-4 w-fit font-serif text-2xl text-white italic">
                 Personal Significant Projects:
             </h2>
-            <ul className="grid grid-cols-3 gap-8 justify-between leading-none w-full font-sans">
+            <ul className="grid grid-cols-1 lg:grid-cols-3 gap-8 justify-between leading-none w-full font-sans">
                 {data
                     ?.filter((item: any) => item.type?.includes("personal"))
                     .map((item: any, index: any) => {

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 export default function PreviewCard(props: any) {
@@ -40,18 +41,19 @@ export default function PreviewCard(props: any) {
                     {props.engine} {props.timestamp}
                 </p>
                 <div className="flex flex-row gap-2">
-                    <a
-                        href={`/games#` + props.title}
+                    <Link
+                        href={`/games?focus=${props.gameUrl}`}
                         className="text-sm px-3 py-2 mt-4 border-2 rounded block w-fit"
                     >
                         Details
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         href={props.gameUrl}
+                        target="_blank"
                         className="text-sm px-3 py-2 mt-4 border-2 rounded block w-fit"
                     >
                         Play
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

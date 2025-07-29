@@ -13,11 +13,13 @@ export default function Home() {
             <Hero />
             <Description />
             <Social />
-            <Work />
-            <Personal />
-            <Unity />
-            <OtherProjects />
-            <TechnicalAssessments />
+            <div className="px-4">
+                <Work />
+                <Personal />
+                <Unity />
+                <OtherProjects />
+                <TechnicalAssessments />
+            </div>
         </>
     );
 }

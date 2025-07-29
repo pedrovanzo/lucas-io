@@ -14,7 +14,7 @@ export default function Unity() {
             <h2 className="my-4 w-fit font-serif text-2xl text-white italic">
                 Unity Projects (by most recent):
             </h2>
-            <ul className="grid grid-cols-4 gap-8 justify-between leading-none w-full font-sans">
+            <ul className="grid grid-cols-1 lg:grid-cols-4 gap-8 justify-between leading-none w-full font-sans">
                 {data
                     ?.filter((item: any) => item.type?.includes("unity"))
                     .map((item: any, index: any) => {
