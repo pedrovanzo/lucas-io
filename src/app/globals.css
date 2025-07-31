@@ -7,9 +7,7 @@
 
 @theme inline {
     --container-section-max: 900px;
-    --container-hero-preview-max-lg: 400px;
-    --container-hero-preview-max-md: 300px;
-    --container-hero-preview-max-sm: 100px;
+    --container-hero-preview-max-lg: 700px;
 }
 
 @theme inline {
@@ -41,3 +39,4 @@ body {
 [data-social-icons]:hover {
     filter: brightness(1);
 }
+

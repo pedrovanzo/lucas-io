@@ -8,6 +8,22 @@
         "type": [
             "personal",
             "other"
+        ],
+        "gamePreviews": [
+            {
+                "previewUrl": "previewURL1"
+            },
+            {
+                "previewUrl": "previewURL2"
+            }
+        ],
+        "detailsDescriptions": [
+            {
+                "description": "Description1"
+            },
+            {
+                "description": "Description2"
+            }
         ]
     },
     {
