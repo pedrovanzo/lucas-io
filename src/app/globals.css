@@ -1,42 +1,53 @@
 @import "tailwindcss";
 
 :root {
-    --background: #171717;
-    --foreground: #ededed;
+  --background: #171717;
+  --foreground: #ededed;
 }
 
 @theme inline {
-    --container-section-max: 900px;
-    --container-hero-preview-max-lg: 700px;
+  --container-section-max: 900px;
+  --container-hero-preview-max-lg: 700px;
 }
 
 @theme inline {
-    --color-background: var(--background);
-    --color-foreground: var(--foreground);
-    --font-sans: var(--font-geist-sans);
-    --font-mono: var(--font-geist-mono);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        --background: #171717;
-        --foreground: #ededed;
-    }
+  :root {
+    --background: #171717;
+    --foreground: #d8d8d8;
+  }
 }
 
 body {
-    background: var(--background);
-    color: var(--foreground);
-    font-family: Arial, Helvetica, sans-serif;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 [data-social-icons] {
-    width: 32px;
-    height: 32px;
-    filter: grayscale(1) brightness(0.5);
+  width: 32px;
+  height: 32px;
+  filter: grayscale(1) brightness(0.5);
 }
 
 [data-social-icons]:hover {
-    filter: brightness(1);
+  filter: brightness(1);
 }
 
+a {
+  text-decoration: underline;
+}
+
+code {
+  border: 2px solid #863232;
+  border-radius: 6px;
+  padding: 5px 4px;
+  margin: 0 2px;
+  font-size: .8rem;
+}

@@ -56,18 +56,14 @@ export default function Games() {
                         {[...Array(maxLength)].map((_, index) => (
                             <React.Fragment key={index}>
                                 {item.detailsDescriptions?.[index] && (
-                                    <p>
-                                        {
-                                            item.detailsDescriptions[index]
-                                                .description
-                                        }
+                                    <p dangerouslySetInnerHTML={{ __html: item.detailsDescriptions[index].description }}>
                                     </p>
                                 )}
                                 {item.externalVideoUrls?.[index] && (
                                     <>
                                         <iframe
-                                            width="400"
-                                            height="300"
+                                            width="auto"
+                                            height="auto"
                                             src={
                                                 item.externalVideoUrls[index]
                                                     .url
@@ -77,6 +73,7 @@ export default function Games() {
                                             referrerPolicy="strict-origin-when-cross-origin"
                                             allowFullScreen
                                             key={index}
+                                            className="aspect-video w-[400px]"
                                         ></iframe>
                                     </>
                                 )}
@@ -108,10 +105,12 @@ export default function Games() {
                             ? item.previewImages.map(
                                   (item: any, index: any) => {
                                       return (
-                                          <figure key={index}>
+                                          <figure key={index} className="aspect-video w-[400px]">
                                               <img
-                                                  src={item.url}
+                                                  src={item.image}
                                                   alt={item.title}
+                                                  width="100%"
+                                                  height="100%"
                                               />
                                               <figcaption>
                                                   {item.title}

@@ -28,7 +28,7 @@
                 "description": "I initially called this the 'Ship Project' since it was really just me experimenting with the Flax Engine. Eventually, I changed the name to 'Asteroid Belt' for pretty obvious (and admittedly not super creative) reasons. This project was mainly about challenging myself with C++, a language I genuinely enjoy, and getting hands-on with a different game engine."
             },
             {
-                "description": "Why Flax? Mainly because it uses standard C++, unlike Unreal's modified version. I wanted something simple, a place where I could mess things up freely, learn from those mistakes, and crash the engine—a lot. And believe me, I did plenty of crashing.<br>Working with Flax was pretty interesting. First, it's incredibly FAST, but also quite challenging and different from Unity. Compilation times and jumping in and out of play mode are lightning-quick, which made testing super fun. On the downside, Flax uses node-based systems for materials and particles, which I found complicated and a bit restrictive."
+                "description": "Why Flax? Mainly because it uses standard C++, unlike Unreal's modified version. I wanted something simple, a place where I could mess things up freely, learn from those mistakes, and crash the engine—a lot. And believe me, I did plenty of crashing.<br><br>Working with Flax was pretty interesting. First, it's incredibly FAST, but also quite challenging and different from Unity. Compilation times and jumping in and out of play mode are lightning-quick, which made testing super fun. On the downside, Flax uses node-based systems for materials and particles, which I found complicated and a bit restrictive."
             },
             {
                 "description": "About the game itself, I knew I wanted something space-themed with a controllable ship, but honestly, designing games isn't my strongest area. Instead of a detailed plan, I just started experimenting with making the ship's movement feel good. Along the way, I encountered several frustrating bugs, unexpected crashes, and issues like having to recompile on cold starts. Another small frustration was needing to use C# for UI, since Flax doesn't let you handle UI directly in C++. Still, figuring out how to bridge communication between C++ and C# scripts was pretty satisfying."
@@ -83,6 +83,27 @@
         "type": [
             "personal",
             "other"
+        ],
+        "gamePreviews": [
+            {
+                "previewUrl": "/assets/pages_content/dungeon/dungeon-raylib2.webm",
+                "previewDescription": ""
+            },
+            {
+                "previewUrl": "/assets/pages_content/dungeon/dungeon-raylib3.webm",
+                "previewDescription": ""
+            }
+        ],
+        "detailsDescriptions": [
+            {
+                "description": "'Dungeon' was the first result of my C++ studies. Initially, I started learning the language through YouTube tutorials, mainly this <a href='https://www.youtube.com/watch?v=PwuIEMUFUnQ&amp;list=PLqCJpWy5FohcehaXlCIt8sVBHBFFRVWsx' target='_blank' rel='noopener noreferrer'>playlist</a>, where I worked on projects using DirectX and C++, while also studying in parallel on <a href='https://www.learncpp.com/' target='_blank' rel='noopener noreferrer'>learncpp.com</a>."
+            },
+            {
+                "description": "After completing this beginner's course, I wanted to test my knowledge on my own. Since I had heard about the raylib library, I decided to try using it. It was really challenging at the beginning, due to learning the language, the framework, and having little experience in low-level game development."
+            },
+            {
+                "description": "As I have a preference for 3D game development, I created this simple game where the goal is just to defeat all the enemies in the dungeon. It took me approximately 20 days to create. But it greatly enhanced my knowledge of the language and how things work at a lower level, especially in managing everything, mainly collisions. By far, this was the most difficult project I have worked on to date."
+            }
         ]
     },
     {
@@ -93,6 +114,28 @@
         "gameUrl": "https://lucasrios.itch.io/net-rush",
         "type": [
             "unity"
+        ],
+        "detailsDescriptions": [
+            {
+                "description": "'Net Rush' started as a project to test 3D models and animations I built from a Udemy course. Then I got ambitious and wanted to add online multiplayer using Photon Fusion. However, my limited experience (particularly with the Host Mode topology) made it challenging."
+            },
+            {
+                "description": "To salvage the project, I focused on local multiplayer only, and I'm really happy with how it turned out! The online multiplayer aspect still tempts me - it would be an awesome addition. Maybe on the next project!"
+            }
+        ],
+        "previewImages": [
+            {
+                "image": "/assets/pages_content/netrush/netrush1.png",
+                "title": "Main Menu"
+            },
+            {
+                "image": "/assets/pages_content/netrush/netrush2.png",
+                "title": "Game View 1"
+            },
+            {
+                "image": "/assets/pages_content/netrush/netrush3.png",
+                "title": "Game View 2"
+            }
         ]
     },
     {
@@ -103,6 +146,35 @@
         "gameUrl": "https://lucasfaesa.github.io/Robotim",
         "type": [
             "unity"
+        ],
+        "externalVideoUrls": [
+            {
+                "url": "https://www.youtube.com/embed/dJbGA-IOx3Q"
+            }
+        ],
+        "detailsDescriptions": [
+            {
+                "description": "'Robotim' was a project developed as part of my master's degree, completed in 2023. It's an educational game designed for middle school students, covering areas such as mathematical operations, the environment, international organizations, diseases, and preventive measures, among other relevant topics."
+            },
+            {
+                "description": "Its unique feature was the simultaneous creation of a platform called the 'Teacher's Area'. In this space, educators could access and analyze students' performance data within the game, including scores, playtime, number of errors, and other metrics. Additionally, teachers had the ability to create quizzes integrated into the students' gameplay, making the educational experience more dynamic and interactive."
+            },
+            {
+                "description": "Examples of data visualization for teachers include various instances, such as errors, time elapsed, quantity of accesses, completed levels, and many other statistics."
+            },
+            {
+                "description": "There's a detailed article about the game available for reading <a href='https://sol.sbc.org.br/index.php/sbie/article/view/26693' target='_blank'>HERE</a> (only in Portuguese), along with my master's thesis, which thoroughly explores all aspects of the game and the teacher's platform and can be accessed <a href='https://drive.google.com/file/d/1K5wOPeQQYhQio_Lry0rzR-jHgIx8Jww4/view?usp=sharing' target='_blank'>HERE</a> (only in Portuguese)."
+            }
+        ],
+        "previewImages": [
+            {
+                "image": "/assets/pages_content/robotim/teacherDash1.png",
+                "title": "Teacher's Graphics - The Teacher's Area allows horizontal scrolling to display additional graphics and information about the students' gameplay."
+            },
+            {
+                "image": "/assets/pages_content/robotim/teacherDash2.png",
+                "title": "Quizzes Table - The teacher can also access more detailed information regarding the quiz questions."
+            }
         ]
     },
     {
@@ -113,6 +185,29 @@
         "gameUrl": "https://lucasrios.itch.io/third-bridge",
         "type": [
             "unity"
+        ],
+        "externalVideoUrls": [
+            {
+                "url": "https://www.youtube.com/embed/2OHNNaBrJSs"
+            }
+        ],
+        "detailsDescriptions": [
+            {
+                "description": "“Third Bridge” was created as a challenge/learning experience; I wanted to delve into shaders and a bit of modeling. However, in this game, I only modeled the bridge and its lamp posts; the rest consisted of assets easily found on Sketchfab. The shaders I used included effects of droplets falling to the ground and droplets sliding along the mesh of objects, as well as a water shader."
+            },
+            {
+                "description": "In terms of gameplay, there's nothing particularly unique; the character simply walks/crouches, and the player must follow a fairly linear path."
+            }
+        ],
+        "previewImages": [
+            {
+                "image": "/assets/pages_content/thirdbridge/tb1.png",
+                "title": "Bridge view 1"
+            },
+            {
+                "image": "/assets/pages_content/thirdbridge/tb2.png",
+                "title": "Bridge view 2"
+            }
         ]
     },
     {
@@ -123,6 +218,20 @@
         "gameUrl": "https://lucasrios.itch.io/endless-music-racetrack",
         "type": [
             "unity"
+        ],
+        "gamePreviews": [
+            {
+                "previewUrl": "/assets/pages_content/endlessracetrack/endlessRacetrackNight.webm",
+                "previewDescription": ""
+            }
+        ],
+        "detailsDescriptions": [
+            {
+                "description": "Endless (Music) Racer was a personal project aimed at gaining more insight into procedural environment generation. It involves creating a game where the player endlessly drives their car, navigating ramps, with no significant gameplay beyond that."
+            },
+            {
+                "description": "Another goal was to have the scenery react to the beats of the music. However, when the game was exported to WebGL, this feature partially ceased to function, causing the colors of the environment to randomly flicker."
+            }
         ]
     },
     {
@@ -133,6 +242,24 @@
         "gameUrl": "https://lucasrios.itch.io/remember-us",
         "type": [
             "unity"
+        ],
+        "detailsDescriptions": [
+            {
+                "description": "'Remember Us' was a game created for a game jam at the college where I was studying. It heavily relies on emotional aspects, and its gameplay is essentially about looking around and clicking on items."
+            },
+            {
+                "description": "It was interesting to learn about rendering 3D objects on the canvas, and it sparked my curiosity about optimization, especially since the game was intended to be played in the browser and featured many graphically intensive assets."
+            }
+        ],
+        "previewImages": [
+            {
+                "image": "/assets/pages_content/rememberus/r1.jpg",
+                "title": "Game View 1"
+            },
+            {
+                "image": "/assets/pages_content/rememberus/r2.jpg",
+                "title": "Game View 2"
+            }
         ]
     },
     {
@@ -143,6 +270,24 @@
         "gameUrl": "https://lucasrios.itch.io/time-lapse",
         "type": [
             "unity"
+        ],
+        "detailsDescriptions": [
+            {
+                "description": "'Time Lapse' is a brief game developed during the game jam at my former college. It is a simple side-scrolling game conceived within a short time frame due to the time constraints of the competition, and considering that most of the team were all beginners in programming and using Unity."
+            },
+            {
+                "description": "As a result, the game follows a straightforward approach: players move to the right, dodging obstacles, while the camera also moves. The goal is to avoid falling behind, as it would result in the player's defeat."
+            }
+        ],
+        "previewImages": [
+            {
+                "image": "/assets/pages_content/timelapse/t1.png",
+                "title": "Game View 1"
+            },
+            {
+                "image": "/assets/pages_content/timelapse/t2.png",
+                "title": "Game View 2"
+            }
         ]
     },
     {
@@ -153,6 +298,24 @@
         "gameUrl": "https://lucasrios.itch.io/cowboys-vs-aliens",
         "type": [
             "unity"
+        ],
+        "detailsDescriptions": [
+            {
+                "description": "'Cowboys vs Aliens' was a project for a game design course at my former college, where we were required to develop it for virtual reality, even though nobody had a virtual reality device."
+            },
+            {
+                "description": "Consequently, the game was created using SteamVR and draws heavily from the gameplay of 'Plants vs Zombies.' Fortunately, SteamVR has a good simulator, allowing the game to be played using a mouse and keyboard (the game was never tested on a VR device…)."
+            }
+        ],
+        "previewImages": [
+            {
+                "image": "/assets/pages_content/CowboysVsAliens/c1.png",
+                "title": "Game View 1"
+            },
+            {
+                "image": "/assets/pages_content/CowboysVsAliens/c2.png",
+                "title": "Game View 2"
+            }
         ]
     },
     {
@@ -163,6 +326,20 @@
         "gameUrl": "https://lucasfaesa.github.io/CoinDash-LOVE2D-Web",
         "type": [
             "other"
+        ],
+        "detailsDescriptions": [
+            {
+                "description": "After diving into the world of Godot and dynamic languages, I felt a gap in my foundational computer science knowledge. So, I enrolled in CS50x and dove headfirst into C (a whole other story for another time!). The final project was to create a web server, website, or game using the <b>LÖVE framework</b>."
+            },
+            {
+                "description": "This was a whole new challenge for me, having no prior experience with LÖVE or similar low-level frameworks. Concepts like physics, collision detection, and simply showing text on the screen, which I took for granted in engines like Unity or Godot, suddenly required a deeper understanding."
+            },
+            {
+                "description": "Despite the challenges (especially those hours debugging circular reference errors and finicky collision issues!), it was a rewarding experience, especially for a first-timer. Coin Dash, inspired by my previous “5 Godot Micro-Games” project, is a testament to that! It's a simple, straightforward, and repetitive game, but the feeling of finishing something from scratch is truly <b>satisfying</b>."
+            },
+            {
+                "description": "Since LÖVE doesn't have a built-in web exporter, I used a convenient web <a href='https://schellingb.github.io/LoveWebBuilder/' target='_blank'>conversion tool</a> to make my project playable online. It was a bit picky about fonts, so I had to switch to one of their supported fonts. There's also a slight stutter when coins appear, but a minor inconvenience for the benefit of web play! Better than nothing, right?"
+            }
         ]
     },
     {
@@ -173,6 +350,23 @@
         "gameUrl": "https://lucasfaesa.github.io/Godot4BookProjects",
         "type": [
             "other"
+        ],
+        "detailsDescriptions": [
+            {
+                "description": "This project is a compilation of four micro-games I created following the book <b>'Godot 4, Game Development Projects'</b> by <b>Chris Bradfield</b>. The book uses these four games to introduce the fundamentals of Godot."
+            },
+            {
+                "description": "Making these games was a very different experience. Previously, I'd only worked with Unity and C#. To challenge myself, I decided to use only GDScript for this project (following the book's guidance with some personal modifications). Godot introduced me to some interesting features, like the particular <code>VisibleOnScreenNotifier</code> node."
+            },
+            {
+                "description": "While these games only scratch the surface of Godot's potential, I did encounter some initial hurdles. Unlike Unity, GDScript doesn't utilize <code>private</code> or <code>public</code> declarations, allowing all scripts to access each other. This can lead to tighter coupling and make debugging trickier. Additionally, unlike Unity's, Godot's error messages on the console cannot be clicked to jump directly to the error line. This was and can be frustrating during development."
+            },
+            {
+                "description": "Despite these initial bumps, Godot offers a lot to explore. Just like Blender's rise in popularity, Godot has the potential to become a widely adopted game engine. I'm excited to continue following its community and seeing future updates."
+            },
+            {
+                "description": "Since the book's focus wasn't web performance or visuals, exporting to HTML5 resulted in some minor performance and visual glitches. However, the convenience of testing in a web browser outweighs these drawbacks. Check them out below!"
+            }
         ]
     },
     {
