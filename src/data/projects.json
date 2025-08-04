@@ -47,6 +47,31 @@
         "type": [
             "personal",
             "unity"
+        ],
+        "gamePreviews": [
+            {
+                "previewUrl": "/assets/pages_content/orbit/roaming.webm",
+                "previewDescription": "Thinking about how it would be if it was cooperative multiplayer..."
+            },
+            {
+                "previewUrl": "/assets/pages_content/orbit/enemyAim.webm",
+                "previewDescription": "Enemy aiming at target using Unity's animation rigging package."
+            },
+            {
+                "previewUrl": "/assets/pages_content/orbit/playerAim.webm",
+                "previewDescription": "Player aiming using Unity's animation rigging package."
+            }
+        ],
+        "detailsDescriptions": [
+            {
+                "description": "Orbit is a personal project I created to explore multiplayer systems, state machines, FPS mechanics, enemy AI, and animation. Initially intended as a cooperative multiplayer game using Photon Fusion's 'Shared Mode' for simplicity, I pivoted to PvP gameplay as developing cooperative mechanics would have been too time-consuming for a learning-focused project."
+            },
+            {
+                "description": "Developing the FPS player was one of the most enjoyable parts of the project. While it seemed simple at first, I quickly realized that synchronizing player actions over the network and ensuring smooth gameplay was more challenging than expected. The enemy AI, however, was the most complex aspect. While basic behaviors were easy to implement, making them fair, dynamic, and networked added significant complexity. Tasks like target switching and synchronizing AI behaviors across the network proved particularly difficult, leading me to simplify the game and drop the cooperative aspect. Animation was another area where I gained valuable knowledge. Using Unity's Animation Rigging package, I was able to dynamically control character bones, allowing both the player and enemy characters to aim at targets realistically. This small but impactful addition enhanced the game's polish and immersion."
+            },
+            {
+                "description": "To finalize the game, I created a simple map, added enemies, and implemented a basic PvP mode to complete the game loop. Although Shared Mode isn't ideal for PvP shooters, I adapted by designing the shooting mechanics to ensure fairness, if one player's hit didn't register, the other player wouldn't take damage. While this made the gameplay feel laggy during testing, it was a reasonable compromise for my first attempt."
+            }
         ]
     },
     {
