@@ -36,10 +36,12 @@ export default function Games() {
             {reorderedItems.map((item: any, index: any) => {
                 const maxLength = Math.max(
                     item.gamePreviews?.length || 0,
-                    item.detailsDescriptions?.length || 0
+                    item.previewImages?.length || 0,
+                    item.detailsDescriptions?.length || 0,
+                    item.externalVideoUrls?.length || 0
                 );
                 return (
-                    <article id={item.id} className="" key={index}>
+                    <article id={item.id} className="max-w-[900px]" key={index}>
                         <h2 className="text-4xl">{item.title}</h2>
                         <video
                             // ref={videoRef}
@@ -48,16 +50,11 @@ export default function Games() {
                             playsInline
                             muted
                             src={item.heroPreviewUrl}
-                            className="border-2 w-hero-preview-max-lg"
+                            className="w-hero-preview-max-lg"
                         ></video>
 
                         {[...Array(maxLength)].map((_, index) => (
                             <React.Fragment key={index}>
-                                {item.gamePreviews?.[index] && (
-                                    <div>
-                                        {item.gamePreviews[index].previewUrl}
-                                    </div>
-                                )}
                                 {item.detailsDescriptions?.[index] && (
                                     <p>
                                         {
@@ -66,8 +63,65 @@ export default function Games() {
                                         }
                                     </p>
                                 )}
+                                {item.externalVideoUrls?.[index] && (
+                                    <>
+                                        <iframe
+                                            width="400"
+                                            height="300"
+                                            src={
+                                                item.externalVideoUrls[index]
+                                                    .url
+                                            }
+                                            title="The History of Mordoaaar"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerPolicy="strict-origin-when-cross-origin"
+                                            allowFullScreen
+                                            key={index}
+                                        ></iframe>
+                                    </>
+                                )}
+                                {item.gamePreviews?.[index] && (
+                                    <div>
+                                        <video
+                                            // ref={videoRef}
+                                            autoPlay
+                                            loop
+                                            playsInline
+                                            muted
+                                            src={
+                                                item.gamePreviews[index]
+                                                    .previewUrl
+                                            }
+                                            className="w-hero-preview-max-lg"
+                                        ></video>
+                                        <p>
+                                            {
+                                                item.gamePreviews[index]
+                                                    .previewDescription
+                                            }
+                                        </p>
+                                    </div>
+                                )}
                             </React.Fragment>
                         ))}
+                        {item.previewImages
+                            ? item.previewImages.map(
+                                  (item: any, index: any) => {
+                                      return (
+                                          <figure key={index}>
+                                              <img
+                                                  src={item.url}
+                                                  alt={item.title}
+                                              />
+                                              <figcaption>
+                                                  {item.title}
+                                              </figcaption>
+                                          </figure>
+                                      );
+                                  }
+                              )
+                            : null}
+                        <p>Play the game <a href={item.gameUrl}>HERE</a></p>
                     </article>
                 );
             })}

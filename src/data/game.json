@@ -1,0 +1,39 @@
+{
+    "title": "Asteroid Best",
+    "engine": "FLAX Engine",
+    "timestamp": "2025",
+    "heroPreviewUrl": "/assets/thumbs/asteroidBeltfreeRoam.webm",
+    "gameUrl": "https://lucasrios.itch.io/asteroid-belt",
+    "type": ["personal", "other"],
+    "externalVideoUrls": [
+        {
+            "url": "https://www.youtube.com/embed/qRHWLej_X-k"
+        },
+        {
+            "url": "https://www.youtube.com/embed/qRHWLej_X-k"
+        }
+    ],
+    "gamePreviews": [
+        {
+            "previewUrl": "/assets/pages_content/AsteroidBelt/asteroidBeltTriumph.webm",
+            "previewDescription": "Rise"
+        },
+        {
+            "previewUrl": "/assets/pages_content/AsteroidBelt/asteroidBeltInAndOut.webm",
+            "previewDescription": "OMG!"
+        }
+    ],
+    "detailsDescriptions": [
+        {
+            "description": "Description1"
+        },
+        {
+            "description": "Description2"
+        }
+    ],
+    "previewImages": [
+        { "image": "www", "title": "first" },
+        { "image": "www", "title": "second" },
+        { "image": "www", "title": "third" }
+    ]
+}

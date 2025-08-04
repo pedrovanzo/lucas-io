@@ -11,18 +11,30 @@
         ],
         "gamePreviews": [
             {
-                "previewUrl": "previewURL1"
+                "previewUrl": "/assets/pages_content/AsteroidBelt/asteroidBeltTriumph.webm",
+                "previewDescription": "Rise"
             },
             {
-                "previewUrl": "previewURL2"
+                "previewUrl": "/assets/pages_content/AsteroidBelt/asteroidBeltInAndOut.webm",
+                "previewDescription": "OMG!"
+            },
+            {
+                "previewUrl": "/assets/pages_content/AsteroidBelt/asteroidBeltShoot.webm",
+                "previewDescription": "Lacks a bit of polish... :D"
             }
         ],
         "detailsDescriptions": [
             {
-                "description": "Description1"
+                "description": "I initially called this the 'Ship Project' since it was really just me experimenting with the Flax Engine. Eventually, I changed the name to 'Asteroid Belt' for pretty obvious (and admittedly not super creative) reasons. This project was mainly about challenging myself with C++, a language I genuinely enjoy, and getting hands-on with a different game engine."
             },
             {
-                "description": "Description2"
+                "description": "Why Flax? Mainly because it uses standard C++, unlike Unreal's modified version. I wanted something simple, a place where I could mess things up freely, learn from those mistakes, and crash the engine—a lot. And believe me, I did plenty of crashing.<br>Working with Flax was pretty interesting. First, it's incredibly FAST, but also quite challenging and different from Unity. Compilation times and jumping in and out of play mode are lightning-quick, which made testing super fun. On the downside, Flax uses node-based systems for materials and particles, which I found complicated and a bit restrictive."
+            },
+            {
+                "description": "About the game itself, I knew I wanted something space-themed with a controllable ship, but honestly, designing games isn't my strongest area. Instead of a detailed plan, I just started experimenting with making the ship's movement feel good. Along the way, I encountered several frustrating bugs, unexpected crashes, and issues like having to recompile on cold starts. Another small frustration was needing to use C# for UI, since Flax doesn't let you handle UI directly in C++. Still, figuring out how to bridge communication between C++ and C# scripts was pretty satisfying."
+            },
+            {
+                "description": "After several months of working on and off, I decided to wrap things up. It might not look like much, but behind the scenes, there was plenty of trial, error, and learning. Ultimately, it was just an experiment, and now I'm ready for something new."
             }
         ]
     },
