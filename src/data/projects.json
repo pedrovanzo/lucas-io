@@ -5,10 +5,7 @@
         "timestamp": "2025",
         "heroPreviewUrl": "/assets/thumbs/asteroidBeltfreeRoam.webm",
         "gameUrl": "https://lucasrios.itch.io/asteroid-belt",
-        "type": [
-            "personal",
-            "other"
-        ],
+        "type": ["personal", "other"],
         "gamePreviews": [
             {
                 "previewUrl": "/assets/pages_content/AsteroidBelt/asteroidBeltTriumph.webm",
@@ -44,10 +41,7 @@
         "timestamp": "2024",
         "heroPreviewUrl": "/assets/thumbs/orbitThumb.webm",
         "gameUrl": "https://lucasrios.itch.io/orbit",
-        "type": [
-            "personal",
-            "unity"
-        ],
+        "type": ["personal", "unity"],
         "gamePreviews": [
             {
                 "previewUrl": "/assets/pages_content/orbit/roaming.webm",
@@ -80,10 +74,7 @@
         "timestamp": "2024",
         "heroPreviewUrl": "/assets/thumbs/dungeon-raylib1.webm",
         "gameUrl": "https://lucasrios.itch.io/dungeon",
-        "type": [
-            "personal",
-            "other"
-        ],
+        "type": ["personal", "other"],
         "gamePreviews": [
             {
                 "previewUrl": "/assets/pages_content/dungeon/dungeon-raylib2.webm",
@@ -112,9 +103,7 @@
         "timestamp": "2024",
         "heroPreviewUrl": "/assets/thumbs/netRush.webm",
         "gameUrl": "https://lucasrios.itch.io/net-rush",
-        "type": [
-            "unity"
-        ],
+        "type": ["unity"],
         "detailsDescriptions": [
             {
                 "description": "'Net Rush' started as a project to test 3D models and animations I built from a Udemy course. Then I got ambitious and wanted to add online multiplayer using Photon Fusion. However, my limited experience (particularly with the Host Mode topology) made it challenging."
@@ -144,9 +133,7 @@
         "timestamp": "2021/22/23",
         "heroPreviewUrl": "/assets/thumbs/robotim.webm",
         "gameUrl": "https://lucasfaesa.github.io/Robotim",
-        "type": [
-            "unity"
-        ],
+        "type": ["unity"],
         "externalVideoUrls": [
             {
                 "url": "https://www.youtube.com/embed/dJbGA-IOx3Q"
@@ -183,9 +170,7 @@
         "timestamp": "2020",
         "heroPreviewUrl": "/assets/thumbs/ThirdBridge.webm",
         "gameUrl": "https://lucasrios.itch.io/third-bridge",
-        "type": [
-            "unity"
-        ],
+        "type": ["unity"],
         "externalVideoUrls": [
             {
                 "url": "https://www.youtube.com/embed/2OHNNaBrJSs"
@@ -216,9 +201,7 @@
         "timestamp": "2020",
         "heroPreviewUrl": "/assets/thumbs/endlessRacetrack.webm",
         "gameUrl": "https://lucasrios.itch.io/endless-music-racetrack",
-        "type": [
-            "unity"
-        ],
+        "type": ["unity"],
         "gamePreviews": [
             {
                 "previewUrl": "/assets/pages_content/endlessracetrack/endlessRacetrackNight.webm",
@@ -240,9 +223,7 @@
         "timestamp": "2020",
         "heroPreviewUrl": "/assets/thumbs/RememberUs.webm",
         "gameUrl": "https://lucasrios.itch.io/remember-us",
-        "type": [
-            "unity"
-        ],
+        "type": ["unity"],
         "detailsDescriptions": [
             {
                 "description": "'Remember Us' was a game created for a game jam at the college where I was studying. It heavily relies on emotional aspects, and its gameplay is essentially about looking around and clicking on items."
@@ -268,9 +249,7 @@
         "timestamp": "2020",
         "heroPreviewUrl": "/assets/thumbs/timelapse.webm",
         "gameUrl": "https://lucasrios.itch.io/time-lapse",
-        "type": [
-            "unity"
-        ],
+        "type": ["unity"],
         "detailsDescriptions": [
             {
                 "description": "'Time Lapse' is a brief game developed during the game jam at my former college. It is a simple side-scrolling game conceived within a short time frame due to the time constraints of the competition, and considering that most of the team were all beginners in programming and using Unity."
@@ -296,9 +275,7 @@
         "timestamp": "2020",
         "heroPreviewUrl": "/assets/thumbs/cowboysvAliens.webm",
         "gameUrl": "https://lucasrios.itch.io/cowboys-vs-aliens",
-        "type": [
-            "unity"
-        ],
+        "type": ["unity"],
         "detailsDescriptions": [
             {
                 "description": "'Cowboys vs Aliens' was a project for a game design course at my former college, where we were required to develop it for virtual reality, even though nobody had a virtual reality device."
@@ -324,9 +301,7 @@
         "timestamp": "2024",
         "heroPreviewUrl": "/assets/thumbs/LuaConDash.webm",
         "gameUrl": "https://lucasfaesa.github.io/CoinDash-LOVE2D-Web",
-        "type": [
-            "other"
-        ],
+        "type": ["other"],
         "detailsDescriptions": [
             {
                 "description": "After diving into the world of Godot and dynamic languages, I felt a gap in my foundational computer science knowledge. So, I enrolled in CS50x and dove headfirst into C (a whole other story for another time!). The final project was to create a web server, website, or game using the <b>LÖVE framework</b>."
@@ -348,9 +323,7 @@
         "timestamp": "2024",
         "heroPreviewUrl": "/assets/thumbs/GodotMicroGames.webm",
         "gameUrl": "https://lucasfaesa.github.io/Godot4BookProjects",
-        "type": [
-            "other"
-        ],
+        "type": ["other"],
         "detailsDescriptions": [
             {
                 "description": "This project is a compilation of four micro-games I created following the book <b>'Godot 4, Game Development Projects'</b> by <b>Chris Bradfield</b>. The book uses these four games to introduce the fundamentals of Godot."
@@ -375,8 +348,17 @@
         "timestamp": "2024",
         "heroPreviewUrl": "/assets/thumbs/justnodes.webm",
         "gameUrl": "https://lucasfaesa.github.io/JustNodes-WebGL",
-        "type": [
-            "technical"
+        "type": ["technical"],
+        "detailsDescriptions": [
+            {
+                "description": "<p>Just Nodes was a technical assessment I completed for <a href='https://infinitygames.io/' target='_blank' rel='noopener noreferrer'>InfinityGames.io</a>.</p><p>Objective</p><p>Develop a puzzle game inspired by <em>Loop Energy</em> where players connect grid nodes.</p><p>Requirements</p><p>1. Game Mechanics</p><ul><li>Players tap to rotate nodes and connect them on a grid.</li><li>Upon level completion, lines should illuminate or provide visual feedback.</li></ul><p>2. Features</p><ul><li>Save level progress and scores.</li><li>Implement a levels menu with locked and unlocked stages.</li><li>Ensure high responsiveness to inputs.</li><li>Include particle effects, camera shake, etc., to enhance player experience.</li><li>Prepare the game for Android deployment.</li></ul><p>3. Presentation</p><p>While asset and audio quality isn't the main focus, their incorporation is. How assets are utilized will be assessed.</p><h5>4. Coding &amp; Documentation</h5><ul><li>Write succinct and readable code.</li><li>Include moderate internal documentation and follow the provided coding conventions.</li></ul><p>5. Organization</p><ul><li>Maintain a logical folder structure.</li><li>Use Unity Canvas to ensure stable Game UI across portrait screen formats.</li></ul><p>6. Version Control</p><ul><li>Commit to a repository regularly.</li><li>Maintain a logical and clear commit history.</li></ul>"
+            }
+        ],
+        "gamePreviews": [
+            {
+                "previewUrl": "/assets/pages_content/Assesments/infinityGames/iG3.webm",
+                "previewDescription": ""
+            }
         ]
     },
     {
@@ -385,8 +367,24 @@
         "timestamp": "2024",
         "heroPreviewUrl": "/assets/thumbs/bluegravityshop.webm",
         "gameUrl": "https://lucasfaesa.github.io/BlueGravityShop-WEB",
-        "type": [
-            "technical"
+        "type": ["technical"],
+        "gamePreviews": [
+            {
+                "previewUrl": "/assets/pages_content/Assesments/bgs/bgs2.webm",
+                "previewDescription": ""
+            },
+            {
+                "previewUrl": "/assets/pages_content/Assesments/bgs/bgs3.webm",
+                "previewDescription": ""
+            }
+        ],
+        "detailsDescriptions": [
+            {
+                "description": "<p>Blue Gravity Shop was a technical assessment for <a href='https://gravity.blue/' target='_blank' rel='noopener noreferrer'>Blue Gravity Studios</a>, which led to me getting the job. The game needed to feature a trading system where players could buy from NPCs and equip or unequip items.</p>"
+            },
+            {
+                "description": "<p>I designed the trading system inspired by Ragnarok Online, a game I played a lot during my childhood. I didn't create the art or assets for the game; they were free assets I found on <a href='https://itch.io/game-assets' target='_blank' rel='noopener noreferrer'>itch.io</a>.</p>"
+            }
         ]
     },
     {
@@ -395,8 +393,14 @@
         "timestamp": "2019",
         "heroPreviewUrl": "/assets/thumbs/freeThrow.webm",
         "gameUrl": "https://lucasrios.itch.io/freethrow",
-        "type": [
-            "technical"
+        "type": ["technical"],
+        "detailsDescriptions": [
+            {
+                "description": "<p>'Free Throw' was a game created as a test requested by a company, leading to my hiring as an intern. During this internship, I gained almost all the basic knowledge of programming, Unity C#, and ASP.NET Core that I have. This simple game holds significant importance for me as it marked my entry into the game development job market.</p>"
+            },
+            {
+                "description": "<p>The game is quite straightforward; using the mouse, players control the force and angle of the ball, and by using the space bar, they launch it. When the ball successfully enters the basket, the basket moves to a random position on the screen.</p>"
+            }
         ]
     }
 ]

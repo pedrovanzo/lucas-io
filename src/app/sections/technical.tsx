@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import WorkData from "./../../data/projects.json";
 import PreviewCard from "../components/card/previewCard";
+import TechnicalPreviewCard from "../components/card/technicalPreviewCard";
 
 export default function TechnicalAssessments() {
     const [data, setData]: any = useState();
@@ -19,7 +20,7 @@ export default function TechnicalAssessments() {
                     .map((item: any, index: any) => {
                         return (
                             <li key={index} className="mx-auto md:mx-0">
-                                <PreviewCard
+                                <TechnicalPreviewCard
                                     previewUrl={item.heroPreviewUrl}
                                     title={item.title}
                                     engine={item.engine}
