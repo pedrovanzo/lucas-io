@@ -1,1 +1,1 @@
-ul, ol { all: revert; }
+p ul, p ol { all: revert; }

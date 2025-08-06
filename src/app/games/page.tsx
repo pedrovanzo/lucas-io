@@ -4,6 +4,7 @@ import Data from "./../../data/projects.json";
 import { useSearchParams } from "next/navigation";
 import { useMemo } from "react";
 import React from "react";
+import Social from "../sections/social";
 export default function Games() {
     const [gameList, setGameList]: any = useState([]);
 
@@ -32,6 +33,8 @@ export default function Games() {
     }, [focusId, gameList]);
 
     return (
+        <>
+        <Social />
         <div>
             {reorderedItems.map((item: any, index: any) => {
                 const maxLength = Math.max(
@@ -125,5 +128,6 @@ export default function Games() {
                 );
             })}
         </div>
+        </>
     );
 }

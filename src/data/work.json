@@ -4,20 +4,90 @@
         "started": "Mar, 2025",
         "ended": "Current",
         "detailsUrl": "#123",
-        "heroPreviewUrl": "/assets/thumbs/nurturelogo.jpg"
+        "heroPreviewUrl": "/assets/thumbs/nurturelogo.jpg",
+        "heroDetails": {
+            "type": "video",
+            "url": "https://www.youtube.com/embed/adwviUtn5-U",
+            "title": "Nurture"
+        },
+        "description": [
+            {
+                "value": "I was on a small team building Nurture, a mobile experience for kids that taught resilience and problem solving through playful interaction. I touched a lot of areas: systems, tooling, feedback, and how the whole experience felt when someone played it."
+            },
+            {
+                "value": "Much of my time went into the guts of how the experience ran. I helped improve the framework that handled modes and progression with state machines , and worked closely with artists, animators, game designers, and the tech lead so behavior, animation, and feedback lined up."
+            },
+            {
+                "value": "I had the opportunity to build tools like the Viewport Anchor Positioner, a GUID lookup helper, and snapshot-based transitions. I also made testing less painful by adding debug and validation commands, used Unity Cloud Build to track down build issues, and wired in lightweight analytics so we could see what players actually did and tune around real patterns."
+            },
+            {
+                "value": "Under the hood I helped keep the codebase clean: I hunted down persistent bugs, reviewed pull requests and resolved merge conflicts, upgraded Unity versions, and continually refactored systems. I contributed to Addressables reliability and helped the team explore better integration."
+            },
+            {
+                "value": "I also, I tied audio and animation together using animator controllers, timelines, playable directors, and sound effects so interactions felt consistent and alive."
+            }
+        ]
     },
     {
         "title": "Blue Gravity Studios",
         "started": "Jun, 2024",
         "ended": "Mar, 2025",
         "detailsUrl": "#321",
-        "heroPreviewUrl": "/assets/thumbs/bluegravitylogo.jpg"
+        "heroPreviewUrl": "/assets/thumbs/bluegravitylogo.jpg",
+        "heroDetails": {
+            "type": "images",
+            "images": [
+                {
+                    "url": "https://lucasfaesa.github.io/pages_content/bluegravity/albertHeader.jpg",
+                    "title": "Albert's Ark Idle",
+                    "externalLink": "https://store.steampowered.com/app/3088750/Alberts_Ark_Idle/"
+                },
+                {
+                    "url": "https://lucasfaesa.github.io/pages_content/bluegravity/draftFeverHeader.jpg",
+                    "title": "Draft Fever Bowl",
+                    "externalLink": "https://store.steampowered.com/app/3100820/Draft_Fever_Bowl/"
+                }
+            ]
+        },
+        "description": [
+            {
+                "value": "I worked as a Unity Programmer at <b>Blue Gravity Studios</b>, where I have contributed to several key projects. One of the major projects I worked on was <b>Albert's Ark</b>, a game I joined during its later stages of development. My role focused on bug fixing, updating art assets, and adding new features. Additionally, I played a significant role in refining the game's UI and backend systems to ensure they aligned with updated design requirements."
+            },
+            {
+                "value": "Following this, I joined the <b>Draft Fever Bowl</b> team, where my primary responsibilities revolved around UI development, implementation of a new player progression system, backend communications, player/team customization, and procedural character generation. Although a progression system already existed, the evolving design required a complete overhaul to align with updated game design documents. I joined the project as the team was preparing to integrate the backend, which involved collaborating closely with the backend team to implement necessary API communications. I also contributed to backend design, focusing on behaviors critical for seamless frontend integration."
+            },
+            {
+                "value": "My general work included restructuring player stats, refining progression mechanics, fully implementing team and character customization systems, creating a procedural generation system based on character ethnicity, and ensuring seamless integration with other game systems and the backend. Additionally, I revamped UI visuals to align with the updated art direction and played a key role in developing a new trading system to enhance player interactions."
+            }
+        ]
     },
     {
         "title": "Inside",
         "started": "Nov, 2019",
         "ended": "Jun, 2024",
         "detailsUrl": "#432",
-        "heroPreviewUrl": "/assets/thumbs/insidelogo.png"
+        "heroPreviewUrl": "/assets/thumbs/insidelogo.png",
+        "heroDetails": {
+            "type": "video",
+            "url": "https://www.youtube.com/embed/Dj4sdxY9q0U",
+            "title": "Some works at InsideTecnologia - Lucas Rios"
+        },
+        "description": [
+            {
+                "value": "I worked as a Game Programmer at <b>Inside Tecnologia</b>, a Serious Games Development Studio in Espírito Santo, Brazil, from November 2019 to June 2024. During my time there, I specialized in developing VR behaviors utilizing the Meta XR SDK and XR Interaction Toolkit, incorporating both controllers and hand tracking."
+            },
+            {
+                "value": "I led the development of many games/applications across multiple platforms, including Mobile, Web, and PC. My role involved significant UI programming and animation, primarily using the DOTween package to achieve smooth and dynamic animations. I was responsible for programming the game flow, often employing singletons and Scriptable Objects as managers to streamline development."
+            },
+            {
+                "value": "My experience also includes leading solo projects based on client expectations and collaborating effectively within a five-member team. I developed procedural scenarios for a Runner-type game and created prototypes to test new technologies, which subsequently evolved into larger projects."
+            },
+            {
+                "value": "I integrated external data sources with Unity via RESTful APIs and Web Servers, enhancing the functionality and connectivity of our applications. Additionally, I developed AR applications using Vuforia and AR Foundation, and simulated real-world environments for employee training, thus eliminating the need for physical visits to hazardous locations."
+            },
+            {
+                "value": "Furthermore, I created Windows applications using Windows Forms, contributing to a wide array of successful projects at Inside Tecnologia."
+            }
+        ]
     }
 ]
