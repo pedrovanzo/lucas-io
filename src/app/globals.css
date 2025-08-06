@@ -7,7 +7,7 @@
 
 @theme inline {
   --container-section-max: 900px;
-  --container-hero-preview-max-lg: 700px;
+  --container-hero-preview-max-lg: 500px;
 }
 
 @theme inline {

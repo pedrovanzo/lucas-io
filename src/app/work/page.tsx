@@ -36,7 +36,7 @@ export default function Work () {
   return (
     <>
       <Social />
-      <div className="flex flex-col items-center px-4">
+      <main className="flex flex-col items-center px-4">
         {reorderedItems.map((item: any, index: any) => {
           const maxLength = Math.max(
             item.gamePreviews?.length || 0,
@@ -45,9 +45,10 @@ export default function Work () {
             item.externalVideoUrls?.length || 0
           );
           return (
-            <article id={item.id} className="w-full max-w-[900px] p-4 border-b-2 border-neutral-600 last:border-0" key={index}>
-              <h2 className="text-3xl font-bold">{item.title}</h2>
-              {/* Hero video/images */}
+            <article id={item.id} className="w-full max-w-[900px] flex flex-col gap-6 p-4 border-b-2 border-neutral-600 last:border-0" key={index}>
+              <div className="flex flex-row items-center gap-4 leading-none">
+                <h2 className="text-3xl font-bold">{item.title}</h2><span className="text-xs">{item.started} ~ {item.ended}</span>
+              </div>
               {item.heroDetails?.type === "video"
                 ?
                 <iframe
@@ -60,20 +61,22 @@ export default function Work () {
                   referrerPolicy="strict-origin-when-cross-origin"
                   allowFullScreen
                   key={index}
-                  className="aspect-video w-[400px]"
+                  className="aspect-video w-full h-[300px]"
                 ></iframe>
 
                 : item.heroDetails?.type === "images"
-                  ? item.heroDetails?.images.map((heroImages: any, index: any) => {
+                  ? <div className="flex gap-6 flex-wrap md:flex-nowrap">
+                    {item.heroDetails?.images.map((heroImages: any, index: any) => {
                     return (
-                      <Link href={heroImages.externalLink} key={index}>
-                        <figure key={index} className="w-[200px] text-center">
+                      <Link href={heroImages.externalLink} key={index} className="basis-full">
+                        <figure key={index} className="text-center">
                           <img width="100%" height="100%" src={heroImages.url} alt={heroImages.title} />
                           <figcaption>{heroImages.title}</figcaption>
                         </figure>
                       </Link>
                     )
-                  })
+                  })}
+                  </div>
                   : "no data"}
               {item.description?.map((text: any, index: any) => {
                 return (
@@ -83,7 +86,7 @@ export default function Work () {
             </article>
           );
         })}
-      </div>
+      </main>
     </>
   );
 }
