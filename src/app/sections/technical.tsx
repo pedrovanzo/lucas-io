@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import WorkData from "./../../data/projects.json";
+import WorkData from "./../../data/technical.json";
 import PreviewCard from "../components/card/previewCard";
 import TechnicalPreviewCard from "../components/card/technicalPreviewCard";
 

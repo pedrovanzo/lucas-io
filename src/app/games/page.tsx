@@ -65,7 +65,7 @@ export default function Games () {
                                         </p>
                                     )}
                                     {item.externalVideoUrls?.[index] && (
-                                        <>
+                                        <div className="bg-black">
                                             <iframe
                                                 width="auto"
                                                 height="auto"
@@ -73,14 +73,14 @@ export default function Games () {
                                                     item.externalVideoUrls[index]
                                                         .url
                                                 }
-                                                title="The History of Mordoaaar"
+                                                title={item.title}
                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                                 referrerPolicy="strict-origin-when-cross-origin"
                                                 allowFullScreen
                                                 key={index}
-                                                className="aspect-video w-[400px]"
+                                                className="h-[350px] w-full mx-auto"
                                             ></iframe>
-                                        </>
+                                        </div>
                                     )}
                                     {item.gamePreviews?.[index] && (
                                         <div className="flex flex-col items-center gap-2">
@@ -112,22 +112,32 @@ export default function Games () {
                                 ? item.previewImages.map(
                                     (item: any, index: any) => {
                                         return (
-                                            <figure key={index} className="aspect-video w-[400px]">
-                                                <img
-                                                    src={item.image}
-                                                    alt={item.title}
-                                                    width="100%"
-                                                    height="100%"
-                                                />
-                                                <figcaption>
+                                            <div key={index}>
+                                                <figure className="w-full bg-black inline-block">
+                                                    <img
+                                                        src={item.image}
+                                                        alt={item.title}
+                                                        width="100%"
+                                                        height="100%"
+                                                        className="block mx-auto aspect-video w-auto h-[300px]"
+                                                    />
+                                                </figure>
+                                                <p className="w-full text-center">
                                                     {item.title}
-                                                </figcaption>
-                                            </figure>
+                                                </p>
+                                            </div>
                                         );
                                     }
                                 )
                                 : null}
-                            <p>Play the game <a href={item.gameUrl}>HERE</a></p>
+                            <a href={item.gameUrl} className="flex flex-row items-center gap-3">
+                                <span>
+                                    <svg className="size-5" width="64px" height="64px" viewBox="-3 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="#1e1e1e" stroke="#1e1e1e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>play</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Icon-Set-Filled" transform="translate(-419.000000, -571.000000)" fill="#aaa"> <path d="M440.415,583.554 L421.418,571.311 C420.291,570.704 419,570.767 419,572.946 L419,597.054 C419,599.046 420.385,599.36 421.418,598.689 L440.415,586.446 C441.197,585.647 441.197,584.353 440.415,583.554" id="play"> </path> </g> </g> </g></svg>
+                                </span>
+                                <span>
+                                    Play the game
+                                </span>
+                            </a>
                         </article>
                     );
                 })}

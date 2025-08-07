@@ -23,7 +23,7 @@ export default function RootLayout({
         className={`antialiased`}
       >
         {children}
-        <footer className="flex flex-row justify-between p-12 text-neutral-600 text-sm">
+        <footer className="flex flex-row justify-between p-12 pt-24 text-neutral-600 text-sm">
           <span className="font-bold">Lucas Rios</span>
           <span>Made by github/pedrovanzo</span>
         </footer>
