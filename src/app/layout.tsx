@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Suspense } from "react";
 
 export const metadata: Metadata = {
   title: "Lucas Rios",
@@ -22,7 +23,9 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
-        {children}
+        <Suspense>
+          {children}
+        </Suspense>
         <footer className="flex flex-row justify-between p-12 pt-24 text-neutral-600 text-sm">
           <span className="font-bold">Lucas Rios</span>
           <span>Made by github/pedrovanzo</span>
