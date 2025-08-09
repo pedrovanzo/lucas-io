@@ -1,6 +1,6 @@
 [
     {
-        "title": "Asteroid Best",
+        "title": "Asteroid Belt",
         "engine": "FLAX Engine",
         "timestamp": "2025",
         "heroPreviewUrl": "/assets/thumbs/asteroidBeltfreeRoam.webm",
@@ -12,11 +12,11 @@
                 "previewDescription": "Rise"
             },
             {
-                "previewUrl": "/assets/pages_content/AsteroidBelt/asteroidBeltInAndOut.webm",
+                "previewUrl": "/assets/pages_content/AsteroidBelt/AsteroidBeltInAndOut.webm",
                 "previewDescription": "OMG!"
             },
             {
-                "previewUrl": "/assets/pages_content/AsteroidBelt/asteroidBeltShoot.webm",
+                "previewUrl": "/assets/pages_content/AsteroidBelt/AsteroidBeltShoot.webm",
                 "previewDescription": "Lacks a bit of polish... :D"
             }
         ],
